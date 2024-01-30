@@ -1,0 +1,52 @@
+@mixin fuentes-h($size, $weight, $color){
+    font-size: $size;
+    font-weight: $weight;
+    color:$color;
+}
+
+/*MIXIN MASCOTAS*/
+
+.detalle-mascota{
+    @include fuentes-h(14px, 600, #1F2223);
+}
+.parrafo-mascotas {
+    @include fuentes-h(14px, 400, #f6f6f6);
+}
+
+.perfil-mascotas {
+    @include fuentes-h(30px, 400, #f6f6f6);
+}
+
+.h-mascota{
+    @include fuentes-h(12px, 400, #f6f6f6);
+}
+
+/*MIXIN INDEX*/
+.h1-index{
+    @include fuentes-h(35px, 400, #f6f6f6);
+}
+.p-index{
+    @include fuentes-h(20px, 500, #f6f6f6);
+}
+
+/*MIXIN SOBRE-NOSOTROS*/
+main{
+    section{
+        .sobre-nosotros{
+            @include fuentes-h(35px,400 ,#f6f6f6 )
+        }
+        .grid-sobre{
+            .t-sobre{
+                @include fuentes-h(15px, 200, #3a3b3b);
+            }
+        }
+    }
+}
+
+.h-contacto{
+    @include fuentes-h(15px, 200, #f6f6f6);
+}
+
+    
+
+

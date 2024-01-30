@@ -1,0 +1,143 @@
+@media (min-width: 651px) and (max-width: 768px){
+ 
+ 
+/*QUERIE HEADER-GENERAL*/
+.header-general {text-align: center;
+    .logo{ 
+        width:  4rem;   
+    }
+}
+
+
+
+ /*QUERIE INDEX*/
+ 
+ 
+ 
+ body {
+    font-size: 14px;
+.header-index{
+    .logo {
+        margin: 0;
+    }
+    header img {
+        width: 3rem;
+    } 
+}
+    
+     
+    
+    
+
+    
+
+.bienvenido{
+    text-align: center;
+    margin: auto;
+    .h1-index {
+        font-size: 25px;
+    }
+    .p-index{
+        font-size: 12px;
+    }
+}
+
+
+/*QUERIE MASCOTAS*/
+.main-mascotas{
+    .perfil-mascotas{
+        font-size: 15px;
+    }
+    .parrafo-mascotas{
+        font-size: 12px;
+        max-width: 100%;
+        margin: auto;
+    }
+    .pet-profile{
+        padding: 15px;
+        .grid-mascotas{
+            width: fit-content;
+            height: auto;
+            
+        .mascotas{
+            margin: auto;
+            width: fit-content;
+            margin: 10px;
+            .h-mascota{
+                font-size: 14px;
+            }
+            .mascota-img{
+                width: 100px;
+                height: 150px;
+            }
+            .detalle-mascota{
+                font-size: 10px;
+                padding: 5px;
+            }
+        }}
+        .button-mascota{
+            width: 150px;
+            font-size: 10px;
+        }      
+    }
+}
+
+/*QUERIE  CENTRO*/
+
+.main-clinicas{
+    .section-clinicas{
+        margin: auto;
+        padding: 20px;
+    .centros-clinicos{
+        font-size: 20px;
+    }
+    .parrafo-centros{
+      font-size: 10px;
+      margin: 0;
+      padding: 0;
+  }
+    }
+    .grid-section{
+        display: block;
+        align-items: center;
+        
+    .map{
+        width: 300px;
+        border-radius: 15px;
+        margin: auto;
+    }
+    .map-list{
+        display: none;
+
+    }
+    }
+}
+
+/*QUERIE CONTACTO*/
+.main-contacto{
+
+    .h-contacto
+    {
+        .contacto-petgo{
+            font-size: 20px;
+        }
+        .parrafo-petgo{
+            font-size: 10px;
+        }
+    }
+    
+    .form-section{
+        margin: auto;
+        .form-control{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    
+
+}
+}
+
+
+
+}

@@ -1,0 +1,32 @@
+/* ANIMACION LOGO HEADER
+
+animation-name: rotacionLogo;
+
+animation-iteraion-count: infinite;
+
+animation-timing-function: easie-in;
+
+animation-duration: 10s;
+
+animation-delay: 1s
+*/
+
+@keyframes rotacionLogo {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.grid-logo {
+    animation-name: rotacionLogo;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}

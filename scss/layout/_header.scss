@@ -1,0 +1,99 @@
+
+/*HEADER INDEX*/
+.header-index{
+    color: #1c7e9f;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    justify-content: space-between;
+    .logo{
+        margin: 12px;
+        width: 4rem;
+    }  
+    nav{
+        margin:auto;
+        align-items: center;
+       
+        ul{list-style: none;
+            font-weight: 500;
+            display: flex;
+            color: #1F2223;
+            
+            li{margin: 10px;
+                a{color: #f6f6f6;
+                    text-decoration: none;
+                    font-weight: 500; 
+                    
+                }
+                .nav-menu{
+                    display: flex;
+                    transition: 1s;
+                    padding-top: 30px;
+                }
+                .nav-menu:hover{
+                    border-bottom: orange 2px solid;
+                }
+                .navbar{
+                    display: none;   
+                }
+                
+                
+            }
+        }
+    }
+    
+}
+/*HEADER GENERAL*/
+.header-general {
+    color: orange;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    background: linear-gradient(#a8ddf1, rgba(36, 42, 44, 0.5)), url('../imagenes/Petgo.jpeg') center;
+
+    .logo {
+        margin: 12px;
+        width: 4rem;
+    }
+
+    nav {
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+
+        ul {
+            list-style: none;
+            font-weight: 500;
+            display: flex;
+            color: #1F2223;
+
+            li {
+                margin: 10px;
+
+                a {
+                    color: #f6f6f6;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+
+                .nav-menu {
+                    transition: 1s;
+                    display: flex;
+                }
+
+                .nav-menu:hover {
+                    border-bottom: orange 2px solid;
+                }
+                .navbar{
+                    display: none;   
+                }
+            }
+        }
+    }
+}

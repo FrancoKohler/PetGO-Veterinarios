@@ -1,0 +1,239 @@
+@media (min-width: 320px) and (max-width: 650px) {
+    body {
+        .header-general {
+            text-align: center;
+
+            .logo {
+                width: 3rem;
+            }
+
+            nav {display: flex;
+                ul {
+                    li {
+                        .nav-menu {
+                            display: none;
+                        }
+                        .collapse{
+                            display: flex;
+                            justify-content: end;
+
+                        }
+                        .navbar-nav{
+                            display: flex;
+                            justify-content: end;
+                        }
+                        .navbar {
+                            display: flex;
+                            justify-content: end;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+    
+       
+
+        /*QUERIE  INDEX*/
+
+    body 
+    {font-size: 10px;
+        .header-index {
+            text-align: center;
+        .logo{width: 3rem;
+        }
+        nav{ 
+            ul{ 
+                li{display: flex;
+                    justify-content: space-between;
+                .nav-menu{
+                display: none;
+                }
+                .navbar{
+                    display: flex;
+                    justify-content: end;
+                     }
+                }
+            }
+            }
+        }
+    }
+    /*FOOTER*/
+    .grid-footer{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+            
+    
+    .bienvenido{
+        text-align: center;
+        margin: auto;
+        .h1-index {
+            font-size: 20px;
+        }
+        .p-index{
+            font-size: 10px;
+        }
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        .grid-item{
+       
+        .grid-logo{
+        width: 3rem;   
+        }
+        
+        .p2-index{
+            font-size: 8px;
+            margin-left:5px;
+            margin-right:5px;
+        }
+        .vetcarrousel{
+            height: 300px;
+            width: 300px;
+            margin-bottom: 5px;
+            border-radius: 15px;
+        }
+                 
+    }
+    }
+
+.grid-footerp{
+    font-size: 10px;
+}
+.grid-red{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.grid-red:hover{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/*QUERIE  MASCOTAS*/
+.main-mascotas{
+    .perfil-mascotas{
+        font-size: 12px;
+    }
+    .parrafo-mascotas{
+        font-size: 12px;
+        max-width: 100%;
+        margin: auto;
+    }
+    .pet-profile{
+        padding: 15px;
+        .grid-mascotas{
+            display: block;
+        .mascotas{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 10px;
+            width: fit-content;
+           
+            .h-mascota{
+                font-size: 14px;
+            }
+            .mascota-img{
+                width: 100px;
+                height: 150px;
+            }
+            .detalle-mascota{
+                font-size: 10px;
+                padding: 5px;
+            }
+        }}
+        .button-mascota{
+            width: 150px;
+            font-size: 10px;
+        }      
+    }
+}
+
+/*QUERIE  CENTRO*/
+
+.main-clinicas{
+    .section-clinicas{
+        margin: auto;
+        padding: 20px;
+    .centros-clinicos{
+        font-size: 15px;
+    }
+    .parrafo-centros{
+      font-size: 10px;
+      margin: 0;
+      padding: 0;
+  }
+    }
+    .grid-section{
+        display: block;
+        align-items: center;
+        
+    .map{
+        width: 300px;
+        border-radius: 15px;
+        margin: auto;
+    }
+    .map-list{
+        display: none;
+
+    }
+    }
+}
+
+/*QUERIE  CONTACTO*/
+
+.main-contacto{
+
+    .h-contacto
+    {
+        .contacto-petgo{
+            font-size: 15px;
+        }
+        .parrafo-petgo{
+            font-size: 10px;
+        }
+    }
+    }
+    .form-section{
+       
+        .form-floating{
+            max-width:300px;
+            height: auto;
+            display: block;
+            padding-bottom: 20px;
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            
+        }
+    }
+
+/*QUERIE  SOBRE NOSOTROS*/
+    main{
+        section{
+        .sobre-nosotros{
+            font-size: 15px;
+        }
+        .grid-sobre{
+            grid-template-columns: 1fr;
+
+            .sobre-img{
+                object-fit: cover;
+                height: auto;
+                width: 100%;
+
+            }
+            .t-sobre{
+                font-size: 12px;
+            }
+        }
+    }
+    }
+}
+

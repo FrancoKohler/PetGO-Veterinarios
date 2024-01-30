@@ -1,0 +1,17 @@
+.perfil-mascotas {
+    align-items: center;
+    margin: 0px;
+    background-color: #1c7e9f;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid orange;
+  }
+
+.h-contacto{
+    @extend .perfil-mascotas;
+}
+
+.sobre-nosotros{
+    @extend .perfil-mascotas;
+}

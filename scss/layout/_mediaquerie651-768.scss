@@ -16,6 +16,7 @@
      
      body {
         font-size: 14px;
+        .imagenfondo{
     .header-index{
         .logo {
             margin: 0;
@@ -24,6 +25,10 @@
             width: 3rem;
         } 
     }
+    .navbar-expand-lg{
+        display: none;
+    }
+}
         
          
         

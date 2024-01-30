@@ -276,7 +276,7 @@ main section .grid-sobre .t-sobre {
 }
 
 /*HEADER INDEX*/
-.header-index {
+.imagenfondo .header-index {
   color: #1c7e9f;
   border-bottom: 2px solid;
   display: flex;
@@ -285,37 +285,37 @@ main section .grid-sobre .t-sobre {
   margin: auto;
   justify-content: space-between;
 }
-.header-index .logo {
+.imagenfondo .header-index .logo {
   margin: 12px;
   width: 4rem;
 }
-.header-index nav {
+.imagenfondo .header-index nav {
   margin: auto;
   align-items: center;
 }
-.header-index nav ul {
+.imagenfondo .header-index nav ul {
   list-style: none;
   font-weight: 500;
   display: flex;
   color: #1F2223;
 }
-.header-index nav ul li {
+.imagenfondo .header-index nav ul li {
   margin: 10px;
 }
-.header-index nav ul li a {
+.imagenfondo .header-index nav ul li a {
   color: #f6f6f6;
   text-decoration: none;
   font-weight: 500;
 }
-.header-index nav ul li .nav-menu {
+.imagenfondo .header-index nav ul li .nav-menu {
   display: flex;
   transition: 1s;
   padding-top: 30px;
 }
-.header-index nav ul li .nav-menu:hover {
+.imagenfondo .header-index nav ul li .nav-menu:hover {
   border-bottom: orange 2px solid;
 }
-.header-index nav ul li .navbar {
+.imagenfondo .header-index nav ul li .navbar {
   display: none;
 }
 
@@ -502,20 +502,20 @@ animation-delay: 1s
   body {
     font-size: 10px;
   }
-  body .header-index {
+  body .imagenfondo .header-index {
     text-align: center;
   }
-  body .header-index .logo {
+  body .imagenfondo .header-index .logo {
     width: 3rem;
   }
-  body .header-index nav ul li {
+  body .imagenfondo .header-index nav ul li {
     display: flex;
     justify-content: space-between;
   }
-  body .header-index nav ul li .nav-menu {
+  body .imagenfondo .header-index nav ul li .nav-menu {
     display: none;
   }
-  body .header-index nav ul li .navbar {
+  body .imagenfondo .header-index nav ul li .navbar {
     display: flex;
     justify-content: end;
   }
@@ -672,11 +672,14 @@ animation-delay: 1s
     /*QUERIE  CENTRO*/
     /*QUERIE CONTACTO*/
   }
-  body .header-index .logo {
+  body .imagenfondo .header-index .logo {
     margin: 0;
   }
-  body .header-index header img {
+  body .imagenfondo .header-index header img {
     width: 3rem;
+  }
+  body .imagenfondo .navbar-expand-lg {
+    display: none;
   }
   body .bienvenido {
     text-align: center;

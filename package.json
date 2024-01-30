@@ -1,0 +1,11 @@
+{
+  "name": "codigo-petgo",
+  "version": "1.0.0",
+  "description": "PETGO es una página diseñada con el objetivo de brindarte acceso inmediato a la información esencial para el cuidado óptimo de tu mascota. Nos comprometemos a proporcionarte los recursos necesarios para que puedas tomar decisiones informadas y asegurarte de que la salud y el bienestar de tu compañero peludo estén siempre en las mejores manos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

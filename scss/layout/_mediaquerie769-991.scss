@@ -1,0 +1,40 @@
+@media (min-width: 769px) and (max-width: 991px){
+ 
+    body {
+        .header-general {
+            
+            nav {
+                
+                ul {
+                    .navbar-expand-lg{
+                        display: none;
+                    }
+                        
+                }  
+            }
+        }
+    }
+
+
+body {
+    .imagenfondo{
+        
+.navbar-expand-lg{
+    display: none;
+         }
+    }
+}
+
+/*STYLE INDEX*/
+
+.bienvenido{
+    text-align: center;
+    margin: auto;
+    .h1-index {
+        font-size: 30px;
+    }
+    .p-index{
+        font-size: 18px;
+    }
+}
+}

@@ -2,11 +2,28 @@
  
  
     /*QUERIE HEADER-GENERAL*/
-    .header-general {text-align: center;
-        .logo{ 
-            width:  4rem;   
+    
+    
+    body {font-size: 14px;
+        .header-general {
+            
+            .logo {
+                width: 4rem;
+            }
+            nav {
+                
+                ul {
+                    .navbar-expand-lg{
+                        display: none;
+                    }
+                        
+                }  
+            }
         }
     }
+        
+    
+    
     
     
     
@@ -19,7 +36,7 @@
         .imagenfondo{
     .header-index{
         .logo {
-            margin: 0;
+            
         }
         header img {
             width: 3rem;

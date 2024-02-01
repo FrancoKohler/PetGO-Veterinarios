@@ -879,8 +879,9 @@ animation-delay: 1s
 }
 
 /*BOTON NAVBAR*/
-.navbar-toggler {
+header nav ul section div .navbar-toggler {
   right: 5px;
+  color: #1c7e9f;
 }
 
 .form-section {
@@ -926,6 +927,10 @@ div .navbar-nav .nav-item .nav-link {
 }
 div .navbar-nav .nav-item .nav-link:hover {
   font-weight: bold;
+}
+div .navbar-nav .nav-item .activated {
+  font-weight: 600;
+  border-bottom: 1px solid orange;
 }
 
 body .navg {
